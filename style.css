@@ -1,0 +1,143 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5e1;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5c35e;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.shop {
+    color: #321903;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    background: url('honey-hero.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    color: #321903;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero .cta {
+    padding: 10px 30px;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #333;
+}
+
+.product-card {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.product-card p {
+    font-size: 20px;
+    color: #ff9900;
+}
+
+.product-card button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.product-card button:hover {
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.74);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
